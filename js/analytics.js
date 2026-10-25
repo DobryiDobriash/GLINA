@@ -4,7 +4,7 @@
   По умолчанию режим демонстрационный и не отправляет данные Google.
 */
 (() => {
-  const GA_ID = 'G-XXXXXXXXXX'; // Заменить на настоящий идентификатор GA4.
+  const GA_ID = 'G-KFC1Y4EBLS'; // Заменить на настоящий идентификатор GA4.
   const demoEvents = [];
   const send = (name, params = {}) => {
     const clean = {};
@@ -13,7 +13,7 @@
     });
     demoEvents.push({ name, params: clean, at: new Date().toISOString() });
     try { sessionStorage.setItem('glina:analyticsDemo', JSON.stringify(demoEvents.slice(-100))); } catch {}
-    if (typeof window.gtag === 'function' && GA_ID !== 'G-XXXXXXXXXX') window.gtag('event', name, clean);
+    if (typeof window.gtag === 'function' && GA_ID !== 'G-KFC1Y4EBLS') window.gtag('event', name, clean);
   };
   window.glinaTrack = send;
   document.addEventListener('click', event => {
@@ -49,7 +49,7 @@
     if (link.origin !== location.origin) send('click', { link_url: link.href, outbound: true });
     if (link.pathname.endsWith('.pdf')) send('file_download', { file_name: link.pathname.split('/').pop(), file_extension: 'pdf' });
   });
-  if (typeof window.gtag === 'function' && GA_ID !== 'G-XXXXXXXXXX') {
+  if (typeof window.gtag === 'function' && GA_ID !== 'G-KFC1Y4EBLS') {
     window.gtag('config', GA_ID);
   }
 })();
