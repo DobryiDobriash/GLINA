@@ -1,13 +1,7 @@
-﻿номер,канал,размещение,utm_source,utm_medium,utm_campaign,utm_content,страница,полная_ссылка_шаблон
-U-01,Instagram,ссылка в шапке профиля,instagram,social,gift_certificates_2026,bio,index.html,https://<ваш-домен>.vercel.app/index.html?utm_source=instagram&utm_medium=social&utm_campaign=gift_certificates_2026&utm_content=bio
-U-02,Instagram,автоответ под Reel,instagram,social,wheel_nov_2026,reel_cup_01,first-wheel.html,https://<ваш-домен>.vercel.app/first-wheel.html?utm_source=instagram&utm_medium=social&utm_campaign=wheel_nov_2026&utm_content=reel_cup_01
-U-03,Instagram,ветка «ПОДАРОК»,instagram,social,gift_certificates_2026,reel_cup_01_gift,gift.html,https://<ваш-домен>.vercel.app/gift.html?utm_source=instagram&utm_medium=social&utm_campaign=gift_certificates_2026&utm_content=reel_cup_01_gift
-U-04,Instagram,стикер «Свободные места»,instagram,social,wheel_nov_2026,stories_01,schedule.html,https://<ваш-домен>.vercel.app/schedule.html?utm_source=instagram&utm_medium=social&utm_campaign=wheel_nov_2026&utm_content=stories_01
-U-05,ВКонтакте,пост сообщества,vk,social,gift_certificates_2026,post_01,gift.html,https://<ваш-домен>.vercel.app/gift.html?utm_source=vk&utm_medium=social&utm_campaign=gift_certificates_2026&utm_content=post_01
-U-06,ВКонтакте,товар «Сертификат»,vk,social,gift_certificates_2026,market_gift,gift.html,https://<ваш-домен>.vercel.app/gift.html?utm_source=vk&utm_medium=social&utm_campaign=gift_certificates_2026&utm_content=market_gift
-U-07,Telegram,пост в канале,telegram,social,wheel_nov_2026,post_01,schedule.html,https://<ваш-домен>.vercel.app/schedule.html?utm_source=telegram&utm_medium=social&utm_campaign=wheel_nov_2026&utm_content=post_01
-U-08,Telegram,ссылка в афише,telegram,referral,gift_certificates_2026,city_poster,index.html,https://<ваш-домен>.vercel.app/index.html?utm_source=telegram&utm_medium=referral&utm_campaign=gift_certificates_2026&utm_content=city_poster
-U-09,YouTube,описание видео,youtube,social,wheel_nov_2026,video_description,classes.html,https://<ваш-домен>.vercel.app/classes.html?utm_source=youtube&utm_medium=social&utm_campaign=wheel_nov_2026&utm_content=video_description
-U-10,Блогер 1,ссылка у партнёра,blogger_one,affiliate,gift_certificates_2026,story_01,gift.html,https://<ваш-домен>.vercel.app/gift.html?utm_source=blogger_one&utm_medium=affiliate&utm_campaign=gift_certificates_2026&utm_content=story_01
-U-11,Блогер 2,ссылка у партнёра,blogger_two,affiliate,wheel_nov_2026,post_01,schedule.html,https://<ваш-домен>.vercel.app/schedule.html?utm_source=blogger_two&utm_medium=affiliate&utm_campaign=wheel_nov_2026&utm_content=post_01
-U-12,Коробки,QR на коробке,box_qr,qr,repeat_visit_2027,pottery_box,classes.html,https://<ваш-домен>.vercel.app/classes.html?utm_source=box_qr&utm_medium=qr&utm_campaign=repeat_visit_2027&utm_content=pottery_box
+﻿placement,utm_source,utm_medium,utm_campaign,example_url
+YouTube video description,youtube,video,masterclass_autumn,https://YOUR_DOMAIN/classes.html?utm_source=youtube&utm_medium=video&utm_campaign=masterclass_autumn
+YouTube Shorts,youtube,video,shorts_wheel_october,https://YOUR_DOMAIN/first-wheel.html?utm_source=youtube&utm_medium=video&utm_campaign=shorts_wheel_october
+YouTube creator integration,youtube,influencer,creator_name_october,https://YOUR_DOMAIN/schedule.html?utm_source=youtube&utm_medium=influencer&utm_campaign=creator_name_october
+Telegram channel post,telegram,social,classes_post_october,https://YOUR_DOMAIN/classes.html?utm_source=telegram&utm_medium=social&utm_campaign=classes_post_october
+Telegram bot button,telegram,bot,schedule_bot_october,https://YOUR_DOMAIN/schedule.html?utm_source=telegram&utm_medium=bot&utm_campaign=schedule_bot_october
+Telegram paid placement,telegram,paid_social,gift_promo_october,https://YOUR_DOMAIN/gift.html?utm_source=telegram&utm_medium=paid_social&utm_campaign=gift_promo_october
